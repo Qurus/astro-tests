@@ -1,0 +1,11 @@
+---
+const { minutesRead } = Astro.props.frontmatter;
+---
+
+<html>
+  <head>...</head>
+  <body>
+    <p>{minutesRead}</p>
+    <slot />
+  </body>
+</html>
